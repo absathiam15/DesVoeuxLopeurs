@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/img-fond.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: PT serif;
+    height: 90px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: darkred;
+}
+
+.zone-head {
+    height: 90px;
+    background-color: rgba(73, 68, 68, 0.452);
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+
+.zone-menu {
+    height: 52px;
+    background-color: rgba(253, 252, 252, 0.746);
+    color: #fff;
+    font-size: 20px;
+    margin-top: 0.3%;
+}
+
+.zone-menu a {
+    text-decoration: none;
+    color: #9c0505;
+}
+
+.active {
+    color: rgb(97, 4, 4);
+}
+
+.barre-recherche {
+    width: 100%;
+    height: 28%;
+    margin-right: 5%;
+}
+
+.barre-recherche select {
+    width: 57%;
+    height: 35px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: rgba(255, 254, 254, 0.74);
+    border: 3px solid #851b1b;
+}
+
+
+/*.barre-recherche {
+    width: 20%;
+    height: 35px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+}*/
+
+.zone-recherche {
+    width: 50%;
+}
+
+.zone-recherche label {
+    color: #fcfcfc;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+.zone-recherche select {
+    width: 20%;
+}
+
+.zone-etudiant {
+    border: 1px solid rgb(250, 247, 247);
+    width: 70%;
+    height: 385px;
+    margin-left: 16%;
+    margin-top: 6%;
+    border-radius: 10px;
+    background-color: rgba(161, 20, 20, 0.349);
+}
+
+.zone-etu {
+    font-size: 20px;
+}
+
+.zone-etu a {
+    color: #fff;
+    margin-left: 14%;
+}
+
+.rechercher {
+    float: right;
+    margin-top: 0.5%;
+}
+
+.titre {
+    color: rgb(255, 248, 248);
+    font-size: 30px;
+    text-align: center;
+}
+
+.enregistrer-etudiant {
+    border: 1px solid rgb(250, 247, 247);
+    width: 70%;
+    height: 385px;
+    margin-left: 16%;
+    margin-top: 0.8%;
+    border-radius: 10px;
+    background-color: rgba(161, 20, 20, 0.349);
+}
+
+.input-inscript {
+    width: 100%;
+    height: 28%;
+    margin-right: 2%;
+}
+
+.input-inscript input {
+    width: 57%;
+    height: 35px;
+    color: #960606;
+    border-radius: 10px;
+    background: rgba(255, 254, 254, 0.74);
+    border: 3px solid #851b1b;
+}
+
+.text-label {
+    text-align: left;
+    color: #ffff;
+    font-size: 23px;
+    margin-right: 10%;
+}
+
+.input-inscript-bourse {
+    width: 100%;
+    height: 28%;
+    margin-right: 5%;
+}
+
+.input-inscript-bourse select {
+    width: 57%;
+    height: 35px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: rgba(255, 254, 254, 0.74);
+    border: 3px solid #851b1b;
+}
+
+.boutton {
+    width: 23%;
+    height: 35px;
+    float: right;
+    margin-right: -34.9%;
+    margin-top: -4%;
+    background-color: #00a6f3;
+    color: #f3f4f5;
+    border-radius: 7px;
+    border: 2px solid#f3f4f5;
+}
+
+.enregistrer-chambre {
+    border: 1px solid rgb(250, 247, 247);
+    width: 70%;
+    height: 385px;
+    margin-left: 16%;
+    margin-top: 0.1%;
+    border-radius: 10px;
+    background-color: rgba(161, 20, 20, 0.349);
+}
+
+.titre2 {
+    color: rgb(255, 248, 248);
+    font-size: 35px;
+    text-align: center;
+}
+
+.enreg-chambre {
+    width: 100%;
+    height: 6%;
+    margin-right: 2%;
+    margin-top: 5%;
+}
+
+.enreg-chambre select {
+    width: 57%;
+    height: 45px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: rgba(255, 254, 254, 0.74);
+    border: 3px solid #851b1b;
+}
+
+.bout {
+    width: 23%;
+    height: 35px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 15%;
+    background-color: #00a6f3;
+    color: #f3f4f5;
+    border-radius: 7px;
+    border: 2px solid#f3f4f5;
+}
+
+.liste-chambre {
+    border: 1px solid rgb(250, 247, 247);
+    width: 70%;
+    max-height: 385px;
+    margin-left: 16%;
+    margin-top: 5.5%;
+    border-radius: 10px;
+    background-color: rgba(161, 20, 20, 0.349);
+}
+
+.liste-chambre a {
+    color: #fff;
+    font-size: 21px;
+    margin-left: 14%;
+}
+
+.boutton1 button {
+    width: 14%;
+    height: 35px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 28%;
+    background-color: #00a6f3;
+    color: #f3f4f5;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid#f3f4f5;
+}
+
+.boutton2 button {
+    width: 14%;
+    height: 35px;
+    float: left;
+    margin-right: 5%;
+    margin-top: 28%;
+    background-color: #00a6f3;
+    color: #f3f4f5;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid#f3f4f5;
+}
+
+@media screen and (max-width:680px) {
+    .zone-head {
+        height: 90px;
+        background-color: rgba(73, 68, 68, 0.452);
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        text-justify: 8px;
+    }
+    .zone-menu {
+        height: 52px;
+        background-color: rgba(253, 252, 252, 0.746);
+        color: #fff;
+        font-size: 12px;
+        margin-top: 0.3%;
+    }
+    .zone-menu a {
+        text-decoration: none;
+        color: #9c0505;
+    }
+    .active {
+        color: rgb(97, 4, 4);
+    }
+    .barre-recherche {
+        width: 100%;
+        height: 28%;
+        margin-right: 5%;
+    }
+    .barre-recherche select {
+        width: 57%;
+        height: 35px;
+        color: #ffffff;
+        border-radius: 10px;
+        background: rgba(255, 254, 254, 0.74);
+        border: 3px solid #851b1b;
+    }
+    /*.barre-recherche {
+    width: 20%;
+    height: 35px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+}*/
+    .zone-recherche {
+        width: 50%;
+    }
+    .zone-recherche label {
+        color: #fcfcfc;
+        margin-right: 15%;
+        font-size: 20px;
+    }
+    .zone-recherche select {
+        width: 20%;
+    }
+    .zone-etudiant {
+        border: 1px solid rgb(250, 247, 247);
+        width: 70%;
+        height: 385px;
+        margin-left: 16%;
+        margin-top: 6%;
+        border-radius: 10px;
+        background-color: rgba(161, 20, 20, 0.349);
+    }
+    .zone-etu {
+        font-size: 20px;
+    }
+    .zone-etu a {
+        color: #fff;
+        margin-left: 14%;
+    }
+    .rechercher {
+        float: right;
+        margin-top: 0.5%;
+    }
+    .titre {
+        color: rgb(255, 248, 248);
+        font-size: 30px;
+        text-align: center;
+    }
+    .enregistrer-etudiant {
+        border: 1px solid rgb(250, 247, 247);
+        width: 70%;
+        height: 385px;
+        margin-left: 16%;
+        margin-top: 0.8%;
+        border-radius: 10px;
+        background-color: rgba(161, 20, 20, 0.349);
+    }
+    .input-inscript {
+        width: 100%;
+        height: 28%;
+        margin-right: 2%;
+    }
+    .input-inscript input {
+        width: 57%;
+        height: 35px;
+        color: #960606;
+        border-radius: 10px;
+        background: rgba(255, 254, 254, 0.74);
+        border: 3px solid #851b1b;
+    }
+    .text-label {
+        text-align: left;
+        color: #ffff;
+        font-size: 23px;
+        margin-right: 10%;
+    }
+    .input-inscript-bourse {
+        width: 100%;
+        height: 28%;
+        margin-right: 5%;
+    }
+    .input-inscript-bourse select {
+        width: 57%;
+        height: 35px;
+        color: #ffffff;
+        border-radius: 10px;
+        background: rgba(255, 254, 254, 0.74);
+        border: 3px solid #851b1b;
+    }
+    .boutton {
+        width: 23%;
+        height: 35px;
+        float: right;
+        margin-right: -34.9%;
+        margin-top: -4%;
+        background-color: #00a6f3;
+        color: #f3f4f5;
+        border-radius: 7px;
+        border: 2px solid#f3f4f5;
+    }
+    .enregistrer-chambre {
+        border: 1px solid rgb(250, 247, 247);
+        width: 70%;
+        height: 385px;
+        margin-left: 16%;
+        margin-top: 0.1%;
+        border-radius: 10px;
+        background-color: rgba(161, 20, 20, 0.349);
+    }
+    .titre2 {
+        color: rgb(255, 248, 248);
+        font-size: 35px;
+        text-align: center;
+    }
+    .enreg-chambre {
+        width: 100%;
+        height: 6%;
+        margin-right: 2%;
+        margin-top: 5%;
+    }
+    .enreg-chambre select {
+        width: 57%;
+        height: 45px;
+        color: #ffffff;
+        border-radius: 10px;
+        background: rgba(255, 254, 254, 0.74);
+        border: 3px solid #851b1b;
+    }
+    .bout {
+        width: 23%;
+        height: 35px;
+        float: right;
+        margin-right: 5%;
+        margin-top: 15%;
+        background-color: #00a6f3;
+        color: #f3f4f5;
+        border-radius: 7px;
+        border: 2px solid#f3f4f5;
+    }
+    .liste-chambre {
+        border: 1px solid rgb(250, 247, 247);
+        width: 70%;
+        max-height: 385px;
+        margin-left: 16%;
+        margin-top: 5.5%;
+        border-radius: 10px;
+        background-color: rgba(161, 20, 20, 0.349);
+    }
+    .liste-chambre a {
+        color: #fff;
+        font-size: 21px;
+        margin-left: 14%;
+    }
+    .boutton1 button {
+        width: 14%;
+        height: 35px;
+        float: right;
+        margin-right: 5%;
+        margin-top: 28%;
+        background-color: #00a6f3;
+        color: #f3f4f5;
+        font-weight: bold;
+        border-radius: 7px;
+        border: 2px solid#f3f4f5;
+    }
+    .boutton2 button {
+        width: 14%;
+        height: 35px;
+        float: left;
+        margin-right: 5%;
+        margin-top: 28%;
+        background-color: #00a6f3;
+        color: #f3f4f5;
+        font-weight: bold;
+        border-radius: 7px;
+        border: 2px solid#f3f4f5;
+    }
+}
